@@ -36,85 +36,32 @@
         android:id="@+id/linearLayout2">
 
         <Button
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
             android:text="SPOTIFY STEAMER"
             android:id="@+id/buttonSpotifySteamer"
-            android:layout_gravity="center_horizontal"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:background="#F08C35"
-            android:layout_marginBottom="10dp"
-            android:textSize="15sp"
-            android:textColor="#000000"
-            android:onClick="displayToast" />
+            style="@style/projectButtonStyle"/>
         <Button
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
             android:text="SCORES APP"
             android:id="@+id/buttonScoresApp"
-            android:layout_gravity="center_horizontal"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:background="#F08C35"
-            android:layout_marginBottom="10dp"
-            android:textSize="15sp"
-            android:textColor="#000000"
-            android:onClick="displayToast"/>
+            style="@style/projectButtonStyle"/>
         <Button
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
             android:text="LIBRARY APP"
             android:id="@+id/buttonLibraryApp"
-            android:layout_gravity="center_horizontal"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:background="#F08C35"
-            android:layout_marginBottom="10dp"
-            android:textSize="15sp"
-            android:textColor="#000000"
-            android:onClick="displayToast"/>
+            style="@style/projectButtonStyle"/>
         <Button
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
             android:text="BUILD IT BIGGER"
             android:id="@+id/buttonBuildItBigger"
-            android:layout_gravity="center_horizontal"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:background="#F08C35"
-            android:layout_marginBottom="10dp"
-            android:textSize="15sp"
-            android:textColor="#000000"
-            android:onClick="displayToast"
-            />
+            style="@style/projectButtonStyle"/>
         <Button
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
             android:text="BACON READER"
             android:id="@+id/buttonBaconReader"
-            android:layout_gravity="center_horizontal"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:background="#F08C35"
-            android:layout_marginBottom="10dp"
-            android:textSize="15sp"
-            android:textColor="#000000"
-            android:onClick="displayToast"/>
+            style="@style/projectButtonStyle"/>
 
         <Button
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
             android:text="CAPSTONE: MY OWN APP"
             android:id="@+id/buttonCapstone"
-            android:layout_gravity="center_horizontal"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:layout_marginBottom="10dp"
             android:background="#D81B60"
-            android:textSize="15sp"
             android:textColor="#ffffff"
-            android:onClick="displayToast"/>
+            style="@style/projectButtonStyle"/>
 
     </LinearLayout>
 
